@@ -1,0 +1,257 @@
+html{
+		scroll-behavior:smooth;
+		}
+body{
+		padding:0;
+		margin:0;
+		font-family:"Baloo Da 2";
+		background-color:#f4f4f4;
+		}
+nav{font-size:22px;}
+.ham{font-size:30px; align-self:center;}
+.brainy{
+		align-self:center;
+   font-weight:bold;
+   }
+header{
+		paddin:10px;
+		margin:0;
+		}
+nav{
+		background:linear-gradient(120deg, #314cbd 60%, #444 10%);
+		color:#300cbd;
+		border-bottom:2px solid #aeaeae;
+		display:flex;
+		justify-content:space-between;
+		padding:8px 25px;
+		margin:0;
+		color:#f4f4f4;
+	  }
+.drop{
+		background:linear-gradient(120deg, #314cbd 55%, #444 10%);
+		width:0px;
+		height:0px;
+		overflow:hidden;
+		transition:height 650ms ease-out;
+		}
+.drop > div{
+		padding:15px;
+		text-align:center;
+		}
+.drop > div > a{
+		text-decoration:none;
+		}
+.drop > div > a:hover{
+		font-weight:700;
+		}
+.one{
+		margin:3pc auto;
+		padding:10px 15px;
+		backgroun:linear-gradient(100deg, lightblue 50%, lightskyblue 10px);
+		}		
+.img1{
+		width:15%;
+		}
+.about{
+		font-size:25px;
+		font-weight:700;
+		}		
+.about1{
+		font-size:20px;
+		font-weight:700;
+		}	
+.about2{
+		padding:0px 15px;
+		}
+.over{ 
+		margin-top:0pc;
+		background-image:url(bg-tablet-pattern.svg);
+		background-size:contain;
+		}
+.over > div,.try > div{
+		margin:15px 0px;
+		borde:1.5px solid #aeaeae;
+		padding:10px;
+		}
+.dummy{
+		padding: 20px 0px;
+		}
+.order0{
+		display:flex;
+		justify-content:space-between;
+		padding:10px 0px;
+		}
+.order0 > div{
+		padding:10px;
+		}
+.order0 .order,.up .order{
+		background-color:#214cbd;
+		border-radius:5px;
+		color:#f4f4f4;
+		}
+.other1{
+		background-image:url(bg-tablet-pattern.svg);
+		background-size:cover;
+		}
+.up .order{
+		padding:5px;
+		}
+.sell{
+		background-color: transparent;
+		}
+.up{
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		padding:10px 0px;
+		}
+small{
+		color:#399cbd;
+		}
+.five{
+		background:linear-gradient(180deg, #444, #314cbd);
+		padding:30px;
+		text-align:center;
+		margin:30px;
+		border-radius:10px;
+		color:white;
+		}
+.suscribe{
+		font-size:25px;
+		margin-bottom:1pc;
+		}
+input[type ="text"]{
+		display:block;
+		width:90%;
+		margin:2.5pc auto 0pc auto;
+		border-radius:10px;
+		padding:10px;
+		border:2px double #aeaeae;
+		outline:none;
+		}
+.sign{
+		background-color:#000000;
+		padding:5px;
+		text-align:center;
+		margin:-2.4pc .3pc auto auto;
+		border-radius:10px;
+		color:white;
+		width:25%;
+		}
+.icon{
+				margin:auto;
+				width:40px;
+				height:40px;
+				}		
+footer{
+				margin-to:30px;
+				padding:20px;
+				background:linear-gradient(60deg, #444 40%, #314cbd 10%);
+				colo: black;			
+				border-top:5px solid rgba(190 ,190, 190,0.4);	
+				}		
+.footicon{
+				display:flex;
+				justify-content:flex-start;
+				}
+.speech{
+				color:#fff;
+				font-weight:bold;
+				}			
+a:link{
+		color:#f4f4f4;
+		}
+a:visited{
+		color:lightgreen;
+		}
+a:hover{
+		color:hotpink;
+		}
+.about4{
+		color:#fff;
+		}
+
+
+
+
+@media(min-width:768px){
+.myflex1{
+		background:radial-gradient(circle at top right,#00005f 45%, #fff 10%);
+		width:80%;
+		margin:auto;
+		display:flex;
+		align-items:flex-start;
+		}		
+.myflex1 > section{
+		margin:3pc 2pc;
+		}	
+.cover{
+		background-color:#fff;
+		}
+.about2{
+		text-align:center;
+		}
+.over{
+		width:80%;
+		margin:auto;
+		display:flex;
+		justify-content:space-evenly;
+		align-items:center;
+		flex-wrap:wrap;
+		}
+.over > div{
+		width:40%;
+		border:0px;
+		background-color:#fff;
+		}
+.how{
+		background-color:#fff;
+		width:35%;
+		text-align:center;
+		}
+.other{
+		width:80%;
+		text-align:center;
+		}
+.other3{
+		background-color:#fff;
+		}
+.other0{
+		text-align:center;
+		}
+.try{
+		display:flex;
+   flex-wrap:wrap;
+   justify-content:space-around;
+		}
+.try > div{
+		width:30%;
+		border:0px;
+		background-color:#fff;
+		}
+.five{
+		width:65%;
+		margin:auto auto 3pc auto;
+		}	
+header{
+		display:flex;
+		justify-content:space-between;
+		padding-right:10%;
+		align-items:center;
+		background:linear-gradient(120deg, #314cbd 60%, #444 10%);
+		}
+nav{
+		padding:10px 12%;
+		background:transparent;
+		}
+.ham{
+		display:none;
+		}
+.drop{
+		width:auto;
+		height:auto;
+		display:flex;
+		background: transparent;
+		}	
+	}
+
